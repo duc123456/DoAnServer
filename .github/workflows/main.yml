@@ -42,7 +42,7 @@ jobs:
 
   deploy:
     permissions:
-      contents: read
+      contents: none
     runs-on: ubuntu-latest
     needs: build
     environment:
